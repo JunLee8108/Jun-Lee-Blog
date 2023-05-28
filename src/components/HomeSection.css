@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+  }
+  
+    .blog-header {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .blog-header h1:hover {
+      color: orange;
+    }
+    
+    .blog-header h1 {
+      font-size: 32px;
+      color: white;
+    }
+  
+    .blog-header img {
+      margin-left: 5px;
+    }
+  
+    
+  
+    
