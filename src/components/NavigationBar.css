@@ -67,6 +67,35 @@
     padding: 2rem 0.5rem;
     margin: 15px;
   }
+
+  .drawer-links {
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .drawer-header {
+    margin-right: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  .drawer-icon {
+    padding: 30px;
+    color: white;
+  }
+
+  .drawer-icon-font {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
   
   @media screen and (max-width: 600px) {
     .navbar {
