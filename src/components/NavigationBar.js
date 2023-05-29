@@ -18,6 +18,10 @@ function Navbar(props) {
       marginLeft: theme.spacing(1),
       width: "auto",
     },
+    [theme.breakpoints.down("sm")]: {
+      width: "auto",
+      height: "auto",
+    },
   }));
 
   const SearchIconWrapper = styled("div")(({ theme }) => ({
@@ -28,20 +32,34 @@ function Navbar(props) {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    size: "small",
+    [theme.breakpoints.down("sm")]: {
+      padding: theme.spacing(0, 0.8),
+    },
   }));
 
   const StyledInputBase = styled(InputBase)(({ theme }) => ({
     color: "inherit",
     "& .MuiInputBase-input": {
-      padding: theme.spacing(1, 1, 1, 0),
+      padding: theme.spacing(1, 0, 1, 0),
       // vertical padding + font size from searchIcon
-      paddingLeft: `calc(1em + ${theme.spacing(4)})`,
+      paddingLeft: "50px",
       transition: theme.transitions.create("width"),
       width: "100%",
       [theme.breakpoints.up("sm")]: {
         width: "12ch",
         "&:focus": {
           width: "20ch",
+        },
+      },
+      [theme.breakpoints.down("sm")]: {
+        paddingLeft: "30px",
+        width: "5ch",
+        height: "2ch",
+        fontSize: "small",
+        transition: theme.transitions.create("width"),
+        "&:focus": {
+          width: "12ch",
         },
       },
     },
@@ -96,7 +114,7 @@ function Navbar(props) {
               <div className="nav-search">
                 <Search>
                   <SearchIconWrapper>
-                    <SearchIcon />
+                    <SearchIcon fontSize="small" />
                   </SearchIconWrapper>
                   <StyledInputBase
                     placeholder="Search…"

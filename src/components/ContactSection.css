@@ -1,7 +1,4 @@
 .contact-containter {
-    background: url(../../public/img/contact-image2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    width: 100%;
+    margin-top: 100px;
+    color: white;
 }
