@@ -1,29 +1,57 @@
-import React from "react";
+import * as React from "react";
+import Button from "@mui/material/Button";
+import { styled } from "@mui/material/styles";
+import Paper from "@mui/material/Paper";
 import "./HeroSection.css";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 
-const HeroSection = () => {
+import Grid from "@mui/material/Grid";
+import { Divider } from "@mui/material";
+
+function HeroSection() {
+  const Item = styled(Paper)(({ theme }) => ({
+    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
+    ...theme.typography.body2,
+    padding: theme.spacing(1),
+    textAlign: "center",
+    color: theme.palette.text.secondary,
+  }));
+
   return (
-    <Row xs={1} md={2} className="g-4">
-      {Array.from({ length: 4 }).map((_, idx) => (
-        <Col key={idx}>
-          <Card>
-            <Card.Img variant="top" src="img/laptop.png" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
+    <div>
+      <div className="hero-container">
+        <Grid
+          container
+          spacing={{ xs: 2, md: 5 }}
+          columns={{ xs: 5, md: 12 }}
+          justifyContent="center"
+          alignItems="center"
+        >
+          <Grid item xs={4} md={5}>
+            <Item>
+              <div className="hero-font">Latest Posts</div>
+              <br></br>
+              <Divider />
+              This is the first post
+              <br></br>
+              <br></br>
+              <Button>Go to this post</Button>
+            </Item>
+          </Grid>
+          <Grid item xs={4} md={5}>
+            <Item>
+              <div className="hero-font">Latest Posts</div>
+              <br></br>
+              <Divider />
+              This is the Second post
+              <br></br>
+              <br></br>
+              <Button>Go to this post</Button>
+            </Item>
+          </Grid>
+        </Grid>
+      </div>
+    </div>
   );
-};
+}
 
 export default HeroSection;

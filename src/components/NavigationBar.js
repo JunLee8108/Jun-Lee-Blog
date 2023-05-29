@@ -5,30 +5,13 @@ import { styled, alpha, useTheme } from "@mui/material/styles";
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
 import useMediaQuery from "@mui/material/useMediaQuery";
-
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
-import CssBaseline from "@mui/material/CssBaseline";
-import MuiAppBar, { AppBarProps as MuiAppBarProps } from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import List from "@mui/material/List";
-import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
-
-import { grey } from "@mui/material/colors";
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from "../components/pages/About";
 
 function Navbar(props) {
   const Search = styled("div")(({ theme }) => ({
@@ -111,14 +94,6 @@ function Navbar(props) {
   const handleDrawerClose = () => {
     setOpen(false);
   };
-
-  function Linkdrawer(props) {
-    if (props.name === "Home") {
-      return <Link to="/" style={{ textDecoration: "none" }}></Link>;
-    }
-  }
-
-  const color = grey[50];
 
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("sm"));
