@@ -26,7 +26,7 @@ function HeroSection() {
           justifyContent="center"
           alignItems="center"
         >
-          <Grid item xs={4} md={5}>
+          <Grid item xs={4} md={4.5}>
             <Item>
               <div className="hero-font">Latest Posts</div>
               <br></br>
@@ -37,7 +37,7 @@ function HeroSection() {
               <Button>Go to this post</Button>
             </Item>
           </Grid>
-          <Grid item xs={4} md={5}>
+          <Grid item xs={4} md={4.5}>
             <Item>
               <div className="hero-font">Latest Posts</div>
               <br></br>

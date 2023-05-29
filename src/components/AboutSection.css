@@ -6,3 +6,12 @@
 .about-container img {
     margin-top: 200px;
 }
+
+.about-name-font {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
