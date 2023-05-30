@@ -3,8 +3,6 @@
     color: white;
 }
 
-
-
 .about-name-font {
     font-size: 25px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -13,6 +11,21 @@
     letter-spacing: 0.5px;
     margin-top: -10px;
     margin-bottom: 10px;
+}
+
+.about-hello-font {
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+.about-intro-font {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 600px) {
@@ -29,5 +42,20 @@
         letter-spacing: 0.5px;
         margin-top: -10px;
         margin-bottom: 10px;
+    }
+
+    .about-hello-font {
+        font-size: 20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: black;
+        letter-spacing: 0.5px;
+        margin-bottom: 5px;
+    }
+
+    .about-intro-font {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: grey;
+        font-size: 14px;
     }
 }

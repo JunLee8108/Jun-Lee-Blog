@@ -26,7 +26,7 @@ function AboutSection() {
           justifyContent="center"
           alignItems="center"
         >
-          <Grid item xs={3.1} md={2.5}>
+          <Grid item xs={3.2} md={2.5}>
             <Item>
               <img
                 src="/img/Jun Lee.png"
@@ -45,13 +45,15 @@ function AboutSection() {
           </Grid>
           <Grid item xs={3.5} md={4}>
             <Item>
-              <div className="hero-font">Hello, </div>
+              <div className="about-hello-font">Hello,</div>
               <Divider />
               <br />
               <br />
-              I'm Jeong Hyun Lee, and am majoring in CS at Texas A&M.
-              <br />I have a lot of experience of developing the frontend by
-              using React and Vue.
+              <div className="about-intro-font">
+                I'm Jeong Hyun Lee, and am majoring in CS at Texas A&M.
+                <br />I have a lot of experience of developing the frontend by
+                using React and Vue.
+              </div>
               <br></br>
               <br></br>
             </Item>
