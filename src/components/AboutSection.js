@@ -26,7 +26,7 @@ function AboutSection() {
           justifyContent="center"
           alignItems="center"
         >
-          <Grid item xs={3.2} md={2.5}>
+          <Grid item xs={3.4} md={2.5}>
             <Item>
               <img
                 src="/img/Jun Lee.png"
@@ -43,7 +43,7 @@ function AboutSection() {
               <div className="about-name-font">Jeong Hyun Lee </div>
             </Item>
           </Grid>
-          <Grid item xs={3.5} md={4}>
+          <Grid item xs={3.4} md={4}>
             <Item>
               <div className="about-hello-font">Hello,</div>
               <Divider />
@@ -51,8 +51,9 @@ function AboutSection() {
               <br />
               <div className="about-intro-font">
                 I'm Jeong Hyun Lee, and am majoring in CS at Texas A&M.
-                <br />I have a lot of experience of developing the frontend by
-                using React and Vue.
+                <br />I have experience in a number of front-end web development
+                projects using React and Vue and in back-end development using
+                Django, making full stack development possible.
               </div>
               <br></br>
               <br></br>
