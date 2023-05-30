@@ -15,7 +15,6 @@ function HomeSection() {
             </h1>
           </Link>
         </header>
-        <NavigationBar />
       </div>
     </div>
   );

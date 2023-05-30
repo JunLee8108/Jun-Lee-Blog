@@ -18,7 +18,7 @@ function AboutSection() {
 
   return (
     <div>
-      <div className="hero-container">
+      <div className="about-container">
         <Grid
           container
           spacing={{ xs: 2, md: 7 }}
@@ -26,13 +26,13 @@ function AboutSection() {
           justifyContent="center"
           alignItems="center"
         >
-          <Grid item xs={4} md={2.5}>
+          <Grid item xs={3.1} md={2.5}>
             <Item>
               <img
                 src="/img/Jun Lee.png"
                 style={{
                   width: "100%",
-                  height: "320px",
+                  height: "auto",
                   borderRadius: "5px",
                   marginTop: "5px",
                 }}
@@ -43,7 +43,7 @@ function AboutSection() {
               <div className="about-name-font">Jeong Hyun Lee </div>
             </Item>
           </Grid>
-          <Grid item xs={4} md={4}>
+          <Grid item xs={3.5} md={4}>
             <Item>
               <div className="hero-font">Hello, </div>
               <Divider />

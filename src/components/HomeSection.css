@@ -4,16 +4,18 @@ body {
     height: 100vh;
     background: black;
   }
-  
+
     .blog-header {
       max-width: 800px;
       margin: 0 auto;
+      margin-top: 60px;
+      margin-bottom: -120px;
       padding: 20px;
       text-align: center;
     }
   
     .blog-header h1:hover {
-      color: orange;
+      color: red;
     }
     
     .blog-header h1 {
@@ -26,9 +28,17 @@ body {
     }
 
     @media screen and (max-width: 600px) {
+        .blog-header {
+            max-width: 800px;
+            margin: 0 auto;
+            margin-top: -50px;
+            padding: 20px;
+            text-align: center;
+          }
+          
         .blog-header h1 {
             font-size: 25px;
-            margin-bottom: -30px;
+            margin-bottom: 20px;
           }
     }
   

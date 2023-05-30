@@ -6,8 +6,10 @@
     max-width: 100%;
     align-items: center;
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     z-index: 999;
+    margin-top: 20px;
   }
   
   .navbar-container {
@@ -86,7 +88,6 @@
   .drawer-icon {
     margin-left: -15px;
     padding: 30px;
-    color: white;
   }
 
   .drawer-icon-font {
