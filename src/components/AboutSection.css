@@ -4,7 +4,7 @@
 }
 
 .about-name-font {
-    font-size: 25px;
+    font-size: 18px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: black;
@@ -14,7 +14,7 @@
 }
 
 .about-hello-font {
-    font-size: 25px;
+    font-size: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: black;
@@ -25,7 +25,7 @@
 .about-intro-font {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: grey;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
 }
 
@@ -61,3 +61,31 @@
         font-size: 13px;
     }
 }
+
+@media screen and (min-width:1920px) and (max-width: 2559px) {
+    .about-name-font {
+        font-size: 20px;
+    }
+
+    .about-hello-font {
+        font-size: 20px;
+    }
+
+    .about-intro-font {
+        font-size: 15px;
+    }
+    }
+
+    @media screen and (min-width:2560px) and (max-width: 3839px) {
+        .about-name-font {
+            font-size: 22px;
+        }
+    
+        .about-hello-font {
+            font-size: 22px;
+        }
+    
+        .about-intro-font {
+            font-size: 18px;
+        }
+        }

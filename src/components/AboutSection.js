@@ -26,7 +26,7 @@ function AboutSection() {
           justifyContent="center"
           alignItems="center"
         >
-          <Grid item xs={3.4} md={2.5}>
+          <Grid item xs={3.4} md={2}>
             <Item>
               <img
                 src="/img/Jun Lee.png"
