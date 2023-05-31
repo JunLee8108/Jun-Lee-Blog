@@ -1,6 +1,6 @@
 .navbar {
-    background: black;
-    height: 0px;
+    background-color: black;
+    height: 100px;
     display: flex;
     justify-content: center;
     max-width: 100%;
@@ -9,7 +9,6 @@
     position: -webkit-sticky;
     top: 0;
     z-index: 999;
-    margin-top: 20px;
   }
   
   .navbar-container {
@@ -27,12 +26,13 @@
     list-style: none;
     text-align: center;
     justify-content: end;
-    margin-bottom: 95px;
+    margin-bottom: 150px;
   }
   
   .navFont {
     font-size: 16px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
   }
 
   .nav-item {
@@ -56,11 +56,10 @@
     transition-duration: 0.25s; 
     transform: translateY(-5px);
     background-color: red;
-    color: white;
   }
 
   .nav-search {
-    color: #fff;
+    color: white;
     display: flex;
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -97,17 +96,21 @@
   }
 
   .drawer-icon {
-    margin-left: -15px;
-    padding: 30px;
+    margin-left: 15px;
+    
   }
 
   .drawer-icon-font {
-    color: white;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     font-weight: bold;
     margin-left: 10px;
     margin-bottom: 2px;
+  }
+
+  .mobile-nav-container {
+
   }
   
   @media screen and (max-width: 600px) {
@@ -144,7 +147,6 @@
   
   .navFont {
     font-size: 8px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .nav-item {

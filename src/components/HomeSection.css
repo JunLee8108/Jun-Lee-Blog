@@ -5,10 +5,13 @@ body {
     background: black;
   }
 
+  .home-container {
+    background: black;
+  }
+
     .blog-header {
       max-width: 800px;
       margin: 0 auto;
-      margin-top: 60px;
       margin-bottom: -120px;
       padding: 20px;
       text-align: center;
@@ -19,7 +22,8 @@ body {
     }
     
     .blog-header h1 {
-      font-size: 32px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 28px;
       color: white;
     }
   
@@ -31,14 +35,21 @@ body {
         .blog-header {
             max-width: 800px;
             margin: 0 auto;
-            margin-top: -50px;
+            margin-top: -60px;
+            margin-bottom: 10px;
             padding: 20px;
             text-align: center;
           }
           
         .blog-header h1 {
-            font-size: 25px;
+            font-size: 22px;
             margin-bottom: 20px;
+            color: white;
+          }
+
+          .home-container {
+            background: black;
+            margin-bottom: 40px;
           }
     }
   

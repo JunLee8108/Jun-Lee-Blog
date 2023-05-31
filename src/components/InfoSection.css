@@ -14,7 +14,6 @@
 }
 
 .info-container {
-    margin-top: 30px;
     background: black;
     width: 100%;
     display: flex;
@@ -25,19 +24,19 @@
 }
 
 .info-container>h0 {
-    font-family: 'Mulish', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 40px;
     text-align: center;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.5px;
     color: white;
     position: static;
     width: 1220px;
     height: 40px;
     top: 100px;
-    margin-top: 90px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -45,7 +44,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.1px;
@@ -57,50 +56,6 @@
     margin-bottom: 170px;
 }
 
-.info-container>h1 {
-    font-family: 'Mulish', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: 0.1px;
-    color: white;
-    position: static;
-    width: 920px;
-    height: 40px;
-    left: calc(50% - 920px/2);
-    top: 100px;
-    margin-top: 150px;
-}
-
-.info-container>h2 {
-    position: static;
-    width: 920px;
-    left: calc(50% - 920px/2);
-    top: 64px;
-    bottom: 0px;
-    font-family: 'Mulish', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: 0.3px;
-    color: white;
-}
-
-.info-container>p1 {
-    color: white;
-    font-size: 24px;
-    margin-top: 8px;
-    font-family: 'Mulish', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 22px;
-    letter-spacing: 0.3px;
-}
-
 .info-container2 {
     background: black;
     width: 100%;
@@ -110,39 +65,6 @@
     justify-content: center;
     align-items: center;
     object-fit: contain;
-}
-
-.info-container2>h1 {
-    font-family: 'Mulish', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: 0.1px;
-    color: white;
-    position: static;
-    width: 920px;
-    height: 40px;
-    left: calc(50% - 920px/2);
-    top: 100px;
-    margin-top: 30px;
-}
-
-.info-container2>h2 {
-    position: static;
-    width: 920px;
-    left: calc(50% - 920px/2);
-    top: 64px;
-    bottom: 0px;
-    font-family: 'Mulish', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: 0.3px;
-    color: #373F41;
 }
 
 .flexbox-container {
@@ -174,7 +96,7 @@
 }
 
 .flexbox-item>h3 {
-    font-family: 'Mulish', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -186,10 +108,10 @@
 }
 
 .flexbox-item>p3 {
-    font-family: 'Mulish', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 22px;
     text-align: center;
     letter-spacing: 0.3px;
@@ -198,7 +120,6 @@
 
 @media screen and (max-width: 600px) {
     .info-container {
-        margin-top: 10px;
         background: black;
         width: 100%;
         display: flex;
@@ -218,7 +139,7 @@
         width: 300px;
         height: 40px;
         top: 100px;
-        margin-top: 80px;
+        margin-top: 14px;
         margin-bottom: 20px;
     }
 

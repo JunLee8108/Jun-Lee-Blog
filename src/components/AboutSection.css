@@ -1,6 +1,7 @@
 .about-container {
     margin-top: 100px;
     color: white;
+    background: black;
 }
 
 .about-name-font {
@@ -27,6 +28,10 @@
     color: grey;
     font-size: 14px;
     line-height: 30px;
+}
+
+.grid-image {
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -88,4 +93,26 @@
         .about-intro-font {
             font-size: 18px;
         }
+
+        .grid-image {
+            width: 95%;
         }
+        }
+
+        @media screen and (min-width:3840px) {
+            .about-name-font {
+                font-size: 30px;
+            }
+        
+            .about-hello-font {
+                font-size: 30px;
+            }
+        
+            .about-intro-font {
+                font-size: 22px;
+            }
+    
+            .grid-image {
+                width: 95%;
+            }
+            }

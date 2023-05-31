@@ -31,15 +31,17 @@ function HeroSection() {
         <Grid
           container
           spacing={{ xs: 2, md: 5 }}
-          columns={{ xs: 5, md: 5, xl: 14 }}
+          columns={{ xs: 5, md: 14 }}
           justifyContent="center"
           alignItems="center"
         >
           <Grid item xs={4} md={3.6} theme={1}>
             <Item>
+              <br></br>
               <div className="hero-font">Latest Posts</div>
               <br></br>
               <Divider />
+              <br></br>
               This is the first post
               <br></br>
               <br></br>
@@ -48,9 +50,11 @@ function HeroSection() {
           </Grid>
           <Grid item xs={4} md={3.6}>
             <Item>
+              <br></br>
               <div className="hero-font">Latest Posts</div>
               <br></br>
               <Divider />
+              <br></br>
               This is the Second post
               <br></br>
               <br></br>
@@ -58,6 +62,9 @@ function HeroSection() {
             </Item>
           </Grid>
         </Grid>
+        <br></br>
+        <br></br>
+        <br></br>
       </div>
     </div>
   );

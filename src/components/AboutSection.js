@@ -31,19 +31,18 @@ function AboutSection() {
               <img
                 src="/img/Jun Lee.png"
                 style={{
-                  width: "100%",
                   height: "auto",
                   borderRadius: "5px",
                   marginTop: "5px",
                 }}
-                class="rounded mx-auto d-block"
+                class="grid-image"
               />
               <Divider />
               <br></br>
               <div className="about-name-font">Jeong Hyun Lee </div>
             </Item>
           </Grid>
-          <Grid item xs={3.4} md={4}>
+          <Grid item xs={3.4} md={3.9}>
             <Item>
               <div className="about-hello-font">Hello,</div>
               <Divider />

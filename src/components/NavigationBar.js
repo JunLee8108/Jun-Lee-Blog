@@ -228,74 +228,76 @@ function Navbar(props) {
     );
   } else {
     return (
-      <Box sx={{ display: "flex" }}>
-        <div className="drawer-icon">
-          <IconButton
-            color="error"
-            aria-label="open drawer"
-            onClick={handleDrawerOpen}
-            edge="start"
-            sx={{ mr: 2, ...(open && { display: "none" }) }}
-          >
-            <MenuIcon />
-            <div className="drawer-icon-font">Menu</div>
-          </IconButton>
-        </div>
-        <Drawer
-          sx={{
-            width: drawerWidth,
-            flexShrink: 0,
-            "& .MuiDrawer-paper": {
-              width: drawerWidth,
-              boxSizing: "border-box",
-            },
-          }}
-          variant="persistent"
-          anchor="left"
-          open={open}
-        >
-          <DrawerHeader>
-            <div className="drawer-header">Jun's Blog</div>
-            <IconButton onClick={handleDrawerClose}>
-              {theme.direction === "ltr" ? (
-                <ChevronLeftIcon />
-              ) : (
-                <ChevronRightIcon />
-              )}
+      <div mobile-nav-container>
+        <Box sx={{ display: "flex" }}>
+          <div className="drawer-icon">
+            <IconButton
+              color="error"
+              aria-label="open drawer"
+              onClick={handleDrawerOpen}
+              edge="start"
+              sx={{ mr: 2, ...(open && { display: "none" }) }}
+            >
+              <MenuIcon />
+              <div className="drawer-icon-font">Menu</div>
             </IconButton>
-          </DrawerHeader>
-          <Divider />
-          <Link
-            to="/"
-            style={{ textDecoration: "none" }}
-            className="drawer-links"
+          </div>
+          <Drawer
+            sx={{
+              width: drawerWidth,
+              flexShrink: 0,
+              "& .MuiDrawer-paper": {
+                width: drawerWidth,
+                boxSizing: "border-box",
+              },
+            }}
+            variant="persistent"
+            anchor="left"
+            open={open}
           >
-            <div>•&nbsp;&nbsp;&nbsp;Home</div>
-          </Link>
-          <Link
-            to="/About"
-            style={{ textDecoration: "none" }}
-            className="drawer-links"
-          >
-            <div>•&nbsp;&nbsp;&nbsp;About</div>
-          </Link>
-          <Link
-            to="/Category"
-            style={{ textDecoration: "none" }}
-            className="drawer-links"
-          >
-            <div>•&nbsp;&nbsp;&nbsp;Categories</div>
-          </Link>
-          <Link
-            to="/Contact"
-            style={{ textDecoration: "none" }}
-            className="drawer-links"
-          >
-            <div>•&nbsp;&nbsp;&nbsp;Contact</div>
-          </Link>
-        </Drawer>
-        <DrawerHeader />
-      </Box>
+            <DrawerHeader>
+              <div className="drawer-header">Jun's Blog</div>
+              <IconButton onClick={handleDrawerClose}>
+                {theme.direction === "ltr" ? (
+                  <ChevronLeftIcon />
+                ) : (
+                  <ChevronRightIcon />
+                )}
+              </IconButton>
+            </DrawerHeader>
+            <Divider />
+            <Link
+              to="/"
+              style={{ textDecoration: "none" }}
+              className="drawer-links"
+            >
+              <div>•&nbsp;&nbsp;&nbsp;Home</div>
+            </Link>
+            <Link
+              to="/About"
+              style={{ textDecoration: "none" }}
+              className="drawer-links"
+            >
+              <div>•&nbsp;&nbsp;&nbsp;About</div>
+            </Link>
+            <Link
+              to="/Category"
+              style={{ textDecoration: "none" }}
+              className="drawer-links"
+            >
+              <div>•&nbsp;&nbsp;&nbsp;Categories</div>
+            </Link>
+            <Link
+              to="/Contact"
+              style={{ textDecoration: "none" }}
+              className="drawer-links"
+            >
+              <div>•&nbsp;&nbsp;&nbsp;Contact</div>
+            </Link>
+          </Drawer>
+          <DrawerHeader />
+        </Box>
+      </div>
     );
   }
 }
