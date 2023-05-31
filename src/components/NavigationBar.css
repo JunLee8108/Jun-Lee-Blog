@@ -70,6 +70,17 @@
     margin: 15px;
   }
 
+  .nav-darkMode {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2rem 0.5rem;
+    margin: 10px;
+  }
+
   .drawer-links {
     margin-top: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;

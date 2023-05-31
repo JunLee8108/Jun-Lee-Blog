@@ -2,6 +2,11 @@ import * as React from "react";
 import NavigationBar from "./NavigationBar";
 import { Link } from "react-router-dom";
 import "./HomeSection.css";
+import Chatbot from "react-chatbot-kit";
+
+import ActionProvider from "./ActionProvider";
+import config from "../config";
+import MessageParser from "./MessageParser";
 
 function HomeSection() {
   return (
@@ -15,6 +20,11 @@ function HomeSection() {
             </h1>
           </Link>
         </header>
+        {/* <Chatbot
+          config={config}
+          actionProvider={ActionProvider}
+          messageParser={MessageParser}
+        /> */}
       </div>
     </div>
   );
